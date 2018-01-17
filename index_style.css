@@ -13,7 +13,7 @@ h1 {
 nav {
   position:fixed;
   background-color:white;
-  height:6.58vw; /*90px*/
+  height:calc(3.61vw + 40.69px); /*calc(5.42vw + 16.03px) 6.58vw 90px*/
   width:100%;
   border-bottom:2px solid black;
   z-index:2;
@@ -23,9 +23,9 @@ nav {
   position:absolute;
   font-family:Comfortaa, cursive;
   font-weight:bold;
-  font-size:2.56vw; /*35px*/
+  font-size:calc(1.40vw + 15.82px); /*2.56vw 35px*/
   display:inline-block;
-  padding-top:1.83vw; /*25px*/
+  padding-top:calc(1vw + 11.30px); /*1.83vw 25px*/
   margin-left:-25px;
 }
 
@@ -48,15 +48,15 @@ nav {
 .clean {
   color:inherit;
   text-decoration:none;
-  padding:1.83vw; /*25px*/
+  padding:calc(1vw + 11.30px); /*1.83vw 25px*/
   padding-left:25px;
   padding-right:25px;
 }
 
 #logo {
-  height:5.85vw; /*80px*/
-  margin-left:0.73vw; /*10px*/
-  margin-top:0.36vw; /*5px*/
+  height:calc(3.21vw + 36.17px); /*5.85vw 80px*/
+  margin-left:calc(0.4vw + 4.52px); /*0.73vw 10px*/
+  margin-top:calc(0.2vw + 2.26px); /*0.36vw 5px*/
 }
 
 i {
@@ -64,25 +64,25 @@ i {
 }
 
 #nav-links-icons-1 {
-  margin-left:16.10vw; /*220px*/
+  margin-left:calc(8.83vw + 99.45px); /*16.1vw 220px*/
   bottom:0.21vw; /*3px*/
   display:none;
 }
 
 #nav-links-icons-2 {
-  margin-left:8.05vw; /*110px*/
+  margin-left:calc(4.41vw + 49.73px); /*8.05vw 110px*/
   bottom:0.36vw; /*5px*/
   display:none;
 }
 
 #nav-links-icons-3 {
-  margin-left:12.81vw; /*175px*/
+  margin-left:calc(7.02vw + 79.11px); /*12.81vw 175px*/
   bottom:0.21vw; /*3px*/
   display:none;
 }
 
 #nav-links-icons-4 {
-  margin-left:12.81vw; /*175px*/
+  margin-left:calc(7.02vw + 79.11px); /*12.81vw 175px*/
   bottom:0.21vw; /*3px*/
   display:none;
 }
