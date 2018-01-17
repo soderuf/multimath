@@ -1,4 +1,11 @@
 $(document).ready(() => {
+    var top1 = ($(window).width() * 0.0221) + 24.86;
+    var top11 = ($(window).width() * 0.0441) + 49.73;
+    var top2 = ($(window).width() * 0.0205) + 23.06;
+    var top22 = ($(window).width() * 0.0409) + 46.11;
+    var top3 = ($(window).width() * 0.0225) + 25.35;
+    var top33 = ($(window).width() * 0.0449) + 50.63;
+
     $('#nav-links-1').mouseenter(function() {
       $('#nav-links-icons-1').slideDown("fast");
     });
@@ -33,7 +40,7 @@ $(document).ready(() => {
         opacity:'0'
       }, 90);
       $('#img-icons-animate-1').delay(90).animate({
-        top:'4.02vw',
+        top:top1,
         opacity:'1'
       }, 90);
       $('#circle-1').animate({
@@ -45,11 +52,11 @@ $(document).ready(() => {
     });
     $('#circle-1').mouseleave(function() {
       $('#img-icon-lightning').delay(90).animate({
-        top:'4.02vw',
+        top:top1,
         opacity:'1'
       }, 90);
       $('#img-icons-animate-1').animate({
-        top:'8.05vw',
+        top:top11,
         opacity:'0'
       }, 90);
       $('#circle-1').animate({
@@ -66,7 +73,7 @@ $(document).ready(() => {
         opacity:'0'
       }, 90);
       $('#img-icons-animate-2').delay(90).animate({
-        top:'3.73vw',
+        top:top2,
         opacity:'1'
       }, 90);
       $('#circle-2').animate({
@@ -78,11 +85,11 @@ $(document).ready(() => {
     });
     $('#circle-2').mouseleave(function() {
       $('#img-icon-lightbulb').delay(90).animate({
-        top:'3.73vw',
+        top:top2,
         opacity:'1'
       }, 90);
       $('#img-icons-animate-2').animate({
-        top:'7.46vw',
+        top:top22,
         opacity:'0'
       }, 90);
       $('#circle-2').animate({
@@ -99,7 +106,7 @@ $(document).ready(() => {
         opacity:'0'
       }, 90);
       $('#img-icons-animate-3').delay(90).animate({
-        top:'4.09vw',
+        top:top3,
         opacity:'1'
       }, 90);
       $('#circle-3').animate({
@@ -111,11 +118,11 @@ $(document).ready(() => {
     });
     $('#circle-3').mouseleave(function() {
       $('#img-icon-pen').delay(90).animate({
-        top:'4.09vw',
+        top:top3,
         opacity:'1'
       }, 90);
       $('#img-icons-animate-3').animate({
-        top:'8.19vw',
+        top:top33,
         opacity:'0'
       }, 90);
       $('#circle-3').animate({

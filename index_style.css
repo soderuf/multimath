@@ -65,25 +65,25 @@ i {
 
 #nav-links-icons-1 {
   margin-left:calc(8.83vw + 99.45px); /*16.1vw 220px*/
-  bottom:0.21vw; /*3px*/
+  bottom:calc(0.12vw + 1.36px); /*0.21vw 3px*/
   display:none;
 }
 
 #nav-links-icons-2 {
   margin-left:calc(4.41vw + 49.73px); /*8.05vw 110px*/
-  bottom:0.36vw; /*5px*/
+  bottom:calc(0.2vw + 2.26px); /*0.36vw 5px*/
   display:none;
 }
 
 #nav-links-icons-3 {
   margin-left:calc(7.02vw + 79.11px); /*12.81vw 175px*/
-  bottom:0.21vw; /*3px*/
+  bottom:calc(0.12vw + 1.36px); /*0.21vw 3px*/
   display:none;
 }
 
 #nav-links-icons-4 {
   margin-left:calc(7.02vw + 79.11px); /*12.81vw 175px*/
-  bottom:0.21vw; /*3px*/
+  bottom:calc(0.12vw + 1.36px); /*0.21vw 3px*/
   display:none;
 }
 
@@ -96,7 +96,7 @@ i {
 }
 
 #img-pen {
-  max-width:105%;
+  width:105%;
   position:static; /*position:abolsute;*/
   margin-left:-10px;
   margin-top:-10px;
@@ -110,10 +110,10 @@ i {
 
 .circle {
   background-color:rgba(0, 0, 0, 0);
-  border:0.1464vw solid black; /*2px*/
+  border:calc(0.08vw + 0.9px) solid black; /*0.1464vw 2px*/
   border-radius:50%;
-  height:17.2vw; /*235px*/
-  width:17.2vw; /*235px*/
+  height:calc(9.43vw + 106.24px); /*17.2vw 235px*/
+  width:calc(9.43vw + 106.24px); /*17.2vw 235px*/
   position:absolute;
   top:15.5vw; /*212px*/
   cursor:pointer;
@@ -138,23 +138,23 @@ i {
 
 #img-icon-lightning {
   position:absolute;
-  left:3.51vw; /*48px*/
-  top:4.02vw; /*55px*/
-  width:10.24vw; /*140px*/
+  left:calc(1.93vw + 21.69px); /*3.51vw 48px*/
+  top:calc(2.21vw + 24.86px); /*4.02vw 55px*/
+  width:calc(5.61vw + 63.29px); /*10.24vw 140px*/
 }
 
 #img-icon-lightbulb {
   position:absolute;
-  left:3.73vw; /*51px*/
-  top:3.73vw; /*51px*/
-  width:9.51vw; /*130px*/
+  left:calc(2.05vw + 23.06px); /*3.73vw 51px*/
+  top:calc(2.05vw + 23.06px); /*3.73vw 51px*/
+  width:calc(5.22vw + 58.77px); /*9.51vw 130px*/
 }
 
 #img-icon-pen {
   position:absolute;
-  left:4.09vw; /*56px*/
-  top:4.09vw; /*56px*/
-  width:9.15vw; /*125px*/
+  left:calc(2.25vw + 25.32px); /*4.09vw 56px*/
+  top:calc(2.25vw + 25.32px); /*4.09vw 56px*/
+  width:calc(5.01vw + 56.51px); /*9.15vw 125px*/
 }
 
 .img-icons-animate {
@@ -164,40 +164,45 @@ i {
 }
 
 #img-icons-animate-1 {
-  left:3.51vw;
-  top:8.05vw; /*110px*/
-  width:10.24vw;
+  left:calc(1.93vw + 21.69px);
+  top:calc(4.41vw + 49.73px); /*110px*/
+  width:calc(5.61vw + 63.29px);
 }
 
 #img-icons-animate-2 {
-  left:3.73vw;
-  top:7.46vw; /*102px*/
-  width:9.51vw;
+  left:calc(2.05vw + 23.06px);
+  top:calc(4.09vw + 46.11px); /*102px*/
+  width:calc(5.22vw + 58.77px);
 }
 
 #img-icons-animate-3 {
-  left:4.09vw;
-  top:8.19vw; /*112px*/
-  width:9.15vw;
+  left:calc(2.25vw + 25.32px);
+  top:calc(4.49vw + 50.63px); /*112px*/
+  width:calc(5.01vw + 56.51px);
 }
 
 .text-circles {
   position:absolute;
   font-family:Crete Round, serif;
-  font-size:3.66vw; /*50px*/
-  top:18.30vw; /*250px*/
+  font-size:calc(2.01vw + 22.60px); /*3.66vw 50px*/
+  top:calc(10.03vw + 113.02px); /*18.30vw 250px*/
 }
 
 #text-circles-1 {
-  left:5.27vw; /*72px*/
+  left:calc(2.89vw + 32.55px); /*5.27vw 72px*/
 }
 
 #text-circles-2 {
-  left:3.66vw; /*50px*/
+  left:calc(2.01vw + 22.60px); /*3.66vw 50px*/
 }
 
 #text-circles-3 {
-  left:3.29vw; /*45px*/
+  left:calc(1.81vw + 20.34px); /*3.29vw 45px*/
+}
+
+#sitelink {
+  position:absolute;
+  top:calc(80.39vh + 150.65px);
 }
 
 .info-main {
@@ -220,17 +225,17 @@ h1 {
   margin-left:5.7vw; /*75px*/
   font-family:Comfortaa, sans-serif;
   color:white;
-  font-size:calc(2vw + 20px); /*2.6vw*/
+  font-size:2.6vw; /*2.6vw*/
 }
 
-#info-main-text {
+#info-main-text, #facebook-text {
   display:inline-block;
-  width:47.5vw; /*650px*/
+  width:calc(26.07vw + 293.84px); /*650px*/
   margin-left:39vw; /*530px*/
   margin-top:calc(-15vw + 50px); /*-125px -10vw*/
   font-family:Varela Round, sans-serif;
   color:white;
-  font-size:1.83vw; /*25px 1.3vw*/
+  font-size:calc(1vw + 11.30px); /*25px 1.3vw*/
 }
 
 footer {
@@ -272,9 +277,20 @@ hr {
   width:60vw;
   margin-left:19.5vw;
   margin-top:38vw;
-  border-radius:50px;
+  border-radius:25px;
   overflow:hidden;
   z-index:0;
+}
+
+#facebook {
+  margin:5vw 0 2vw 19vw;
+}
+
+#facebook-text {
+  position:absolute;
+  margin-top:5vw;
+  left:10vw;
+  width:calc(14.04vw + 180px);
 }
 
 #img-social-1, #img-social-2, #img-social-3 {
@@ -378,5 +394,19 @@ footer > a {
   #circle-3 {
     left:36vw;
     top:750px;
+  }
+}
+
+@media only screen and (min-width:1920px) {
+  #circle-1 {
+    left:20vw;
+  }
+
+  #circle-2 {
+    left:42vw;
+  }
+
+  #circle-3 {
+    left:64vw;
   }
 }
