@@ -326,35 +326,35 @@ footer > a {
 
 @media only screen and (max-width:960px) {
   nav {
-    height:60px;
+    height:16.67vw; /*60px*/
   }
 
   #logo {
-    height:45px;
-    margin-top:7px;
-    margin-left:10px;
+    height:12.5vw; /*45px*/
+    margin-top:1.94vw; /*7px*/
+    margin-left:2.78vw; /*10px*/
   }
 
   .nav-links {
     display:none;
-    font-size:20px;
+    font-size:5.56vw; /*20px*/
     margin-left:6vw;
   }
 
   #nav-links-1 {
-    top:90px;
+    top:25vw; /*90px*/
   }
 
   #nav-links-2 {
-    top:140px;
+    top:38.89vw; /*140px*/
   }
 
   #nav-links-3 {
-    top:190px;
+    top:52.78vw; /*190px*/
   }
 
   #nav-links-4 {
-    top:240px;
+    top:66.67vw; /*240px*/
   }
 
   i {
@@ -364,16 +364,16 @@ footer > a {
   #mob-menu-icon {
     position:absolute;
     display:inline-block;
-    font-size:30px;
+    font-size:8.33vw; /*30px*/
     font-weight:bold;
     right:10vw;
-    top:9px;
+    top:2.5vw; /*9px*/
     cursor:pointer;
   }
 
   #img-pen {
     min-width:450%;
-    filter:blur(3px);
+    filter:blur(0.83vw);
   }
 
   .circle {
