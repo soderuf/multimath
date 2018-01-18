@@ -442,23 +442,30 @@ footer > a {
 
   h1 {
     top:8.5vw;
-    margin-left:3vw;
-    font-size:5vw;
+    margin-left:9vw;
+    font-size:6vw;
   }
 
   #info-main-text {
-    margin-left:8vw;
-    font-size:12px;
-    width:280px;
+    margin-left:8.5vw;
+    margin-top:20vw;
+    font-size:4.5vw; /*12px*/
+    width:77.78vw; /*280px*/
     background-color:#5b5b5b;
-    padding:10px;
+    padding:2.78vw; /*10px*/
     border:1px solid white;
-    border-top:none;
   }
 
   .bx-wrapper {
-    margin-top:60vw;
-    border-radius:10px;
+    margin-top:130vw;
+    margin-left:4vw;
+    height:50vw;
+    width:90vw;
+    border-radius:2.78vw;
+  }
+
+  hr {
+    width:100%;
   }
 
   /*Ska tas bort*/
