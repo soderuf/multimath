@@ -337,24 +337,24 @@ footer > a {
 
   .nav-links {
     display:none;
-    font-size:30px;
-    margin-left:8vw;
+    font-size:20px;
+    margin-left:6vw;
   }
 
   #nav-links-1 {
-    top:150px;
+    top:90px;
   }
 
   #nav-links-2 {
-    top:220px;
+    top:140px;
   }
 
   #nav-links-3 {
-    top:290px;
+    top:190px;
   }
 
   #nav-links-4 {
-    top:360px;
+    top:240px;
   }
 
   i {
@@ -366,13 +366,14 @@ footer > a {
     display:inline-block;
     font-size:30px;
     font-weight:bold;
-    left:75vw;
+    right:10vw;
     top:8px;
     cursor:pointer;
   }
 
   #img-pen {
-    max-width:300%;
+    min-width:500%;
+    filter:blur(3px);
   }
 
   .circle {
@@ -395,9 +396,25 @@ footer > a {
     left:36vw;
     top:750px;
   }
+  /*Ska tas bort*/
+  #info-main-text {
+    display:none;
+  }
+
+  #facebook {
+    display:none;
+  }
+
+  #facebook-text {
+    display:none;
+  }
 }
 
 @media only screen and (min-width:1920px) {
+  #img-pen {
+    filter:blur(6px);
+  }
+
   #circle-1 {
     left:20vw;
   }

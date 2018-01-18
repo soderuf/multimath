@@ -168,9 +168,9 @@ $(document).ready(() => {
     });
 
     $("#mob-menu-icon").click(function() {
-      if($("nav").height() === 460) {
+      if($("nav").height() === 315) {
         $("nav").animate({
-          height:'90px'
+          height:'60px'
         }, 200);
 
         $(".nav-links").hide();
@@ -178,7 +178,7 @@ $(document).ready(() => {
 
       else {
         $("nav").animate({
-          height:'460px'
+          height:'315px'
         }, 200);
 
         $(".nav-links").animate({
