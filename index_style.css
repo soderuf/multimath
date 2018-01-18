@@ -326,13 +326,13 @@ footer > a {
 
 @media only screen and (max-width:960px) {
   nav {
-    height:90px;
+    height:60px;
   }
 
   #logo {
-    height:60px;
-    margin-top:15px;
-    margin-left:20px;
+    height:45px;
+    margin-top:7px;
+    margin-left:10px;
   }
 
   .nav-links {
@@ -364,10 +364,10 @@ footer > a {
   #mob-menu-icon {
     position:absolute;
     display:inline-block;
-    font-size:50px;
+    font-size:30px;
     font-weight:bold;
-    left:80vw;
-    top:9px;
+    left:75vw;
+    top:8px;
     cursor:pointer;
   }
 
