@@ -367,40 +367,70 @@ footer > a {
     font-size:30px;
     font-weight:bold;
     right:10vw;
-    top:8px;
+    top:9px;
     cursor:pointer;
   }
 
   #img-pen {
-    min-width:500%;
+    min-width:450%;
     filter:blur(3px);
   }
 
   .circle {
     border:0.2vw solid black;
-    height:32vw;
-    width:32vw;
+    height:40vw;
+    width:40vw;
   }
 
   #circle-1 {
-    left:36vw;
-    top:350px;
+    left:30vw;
+    top:275px;
   }
 
   #circle-2 {
-    left:36vw;
-    top:550px;
+    left:30vw;
+    top:515px;
   }
 
   #circle-3 {
-    left:36vw;
-    top:750px;
+    left:30vw;
+    top:755px;
   }
-  /*Ska tas bort*/
-  #info-main-text {
+
+  #img-icon-lightbulb {
+    left:9vw;
+  }
+
+  .info-main {
+    margin-top:0;
+  }
+
+  #info-main-logo {
     display:none;
   }
 
+  h1 {
+    top:8.5vw;
+    margin-left:3vw;
+    font-size:5vw;
+  }
+
+  #info-main-text {
+    margin-left:8vw;
+    font-size:12px;
+    width:280px;
+    background-color:#5b5b5b;
+    padding:10px;
+    border:1px solid white;
+    border-top:none;
+  }
+
+  .bx-wrapper {
+    margin-top:60vw;
+    border-radius:10px;
+  }
+
+  /*Ska tas bort*/
   #facebook {
     display:none;
   }
