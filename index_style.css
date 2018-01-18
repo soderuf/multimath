@@ -384,21 +384,52 @@ footer > a {
 
   #circle-1 {
     left:30vw;
-    top:275px;
+    top:76.39vw; /*275px*/
   }
 
   #circle-2 {
     left:30vw;
-    top:515px;
+    top:143.06vw; /*515px*/
   }
 
   #circle-3 {
     left:30vw;
-    top:755px;
+    top:209.72vw; /*755px*/
+  }
+
+  #img-icon-lightning {
+    width:calc(21.20vw + 6.69px);
+    left:8.5vw;
+    top:9vw;
   }
 
   #img-icon-lightbulb {
+    width:calc(19.81vw + 6.25px);
     left:9vw;
+    top:9vw;
+  }
+
+  #img-icon-pen {
+    width:calc(19.04vw + 6.01px);
+    left:9vw;
+    top:9vw;
+  }
+
+  .text-circles {
+    font-size:9vw;
+    top:41.5vw;
+  }
+
+  #text-circles-1 {
+    left:12vw;
+  }
+
+  #text-circles-2 {
+    left:7vw;
+  }
+
+  #text-circles-3 {
+    left:6.5vw;
   }
 
   .info-main {
