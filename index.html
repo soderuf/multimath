@@ -25,20 +25,20 @@
     <script src="bxslider/dist/jquery.bxslider.min.js"></script>
   </head>
   <body>
-    <nav>
-      <a href="http://multimath.se"><img id="logo" src="images/logo-text.png" alt="logo"/></a>
-      <p class="nav-links" id="nav-links-1"><a class="clean" href="product.html">Produkten<i class="fa fa-wrench fa-1x" id="nav-links-icons-1" aria-hidden="true"></i></a></p>
-      <p class="nav-links" id="nav-links-2"><a class="clean" href="shop.html">Köp<i class="fa fa-shopping-bag fa-1x" id="nav-links-icons-2" aria-hidden="true"></i></a></p>
-      <p class="nav-links" id="nav-links-3"><a class="clean" href="about.html">Om oss<i class="fa fa-info-circle fa-1x" id="nav-links-icons-3" aria-hidden="true"></i></a></p>
-      <p class="nav-links" id="nav-links-4"><a class="clean" href="contact.html">Kontakt<i class="fa fa-phone fa-1x" id="nav-links-icons-4" aria-hidden="true"></i></a></p>
+    <nav class="transition">
+      <a href="http://multimath.se"><img class="logo transition" src="images/logo-text.png" alt="logo"/></a>
+      <p class="nav-links transition nav-links-1"><a class="clean" href="product.html">Produkten<i class="fa fa-wrench fa-1x" id="nav-links-icons-1" aria-hidden="true"></i></a></p>
+      <p class="nav-links transition nav-links-2"><a class="clean" href="shop.html">Köp<i class="fa fa-shopping-bag fa-1x" id="nav-links-icons-2" aria-hidden="true"></i></a></p>
+      <p class="nav-links transition nav-links-3"><a class="clean" href="about.html">Om oss<i class="fa fa-info-circle fa-1x" id="nav-links-icons-3" aria-hidden="true"></i></a></p>
+      <p class="nav-links transition nav-links-4"><a class="clean" href="contact.html">Kontakt<i class="fa fa-phone fa-1x" id="nav-links-icons-4" aria-hidden="true"></i></a></p>
       <p id="mob-menu-icon">&#9776;</p>
     </nav>
 
     <div id="container">
       <div id="overflow"><img id="img-pen" src="images/pen.jpg" alt="pen"/></div>
-      <a href="#sitelink"><div class="circle" id="circle-1"><img id="img-icon-lightning" src="images/icon-lightning.png" alt="lightning"/><img class="img-icons-animate" id="img-icons-animate-1" src="images/icon-lightning.png" alt="lightning"/><p class="text-circles" id="text-circles-1">Fast</p></div></a>
-      <a href="#sitelink"><div class="circle" id="circle-2"><img id="img-icon-lightbulb" src="images/icon-lightbulb.png" alt="lightbulb"/><img class="img-icons-animate" id="img-icons-animate-2" src="images/icon-lightbulb.png" alt="lightbulb"/><p class="text-circles" id="text-circles-2">Smart</p></div></a>
-      <a href="#sitelink"><div class="circle" id="circle-3"><img id="img-icon-pen" src="images/icon-pen.png" alt="pen"/><img class="img-icons-animate" id="img-icons-animate-3" src="images/icon-pen.png" alt="pen"/><p class="text-circles" id="text-circles-3">Simple</p></div></a>
+      <a class="anchorLink" href="#sitelink"><div class="circle" id="circle-1"><img id="img-icon-lightning" src="images/icon-lightning.png" alt="lightning"/><img class="img-icons-animate" id="img-icons-animate-1" src="images/icon-lightning.png" alt="lightning"/><p class="text-circles" id="text-circles-1">Fast</p></div></a>
+      <a class="anchorLink" href="#sitelink"><div class="circle" id="circle-2"><img id="img-icon-lightbulb" src="images/icon-lightbulb.png" alt="lightbulb"/><img class="img-icons-animate" id="img-icons-animate-2" src="images/icon-lightbulb.png" alt="lightbulb"/><p class="text-circles" id="text-circles-2">Smart</p></div></a>
+      <a class="anchorLink" href="#sitelink"><div class="circle" id="circle-3"><img id="img-icon-pen" src="images/icon-pen.png" alt="pen"/><img class="img-icons-animate" id="img-icons-animate-3" src="images/icon-pen.png" alt="pen"/><p class="text-circles" id="text-circles-3">Simple</p></div></a>
       <div id="sitelink"></div>
       <div class="info-main">
         <img id="info-main-logo" src="images/logo.png" alt="logo"/>
@@ -64,10 +64,15 @@
         <a id="social-links-2" href="mailto:soderuf@gmail.com"><img id="img-social-2" src="images/mail.png" alt="mail"/></a>
         <a id="social-links-3" href="https://ungforetagsamhet.se/multimath-uf" target="_blank"><img id="img-social-3" src="images/uflogo.png" alt="ung_foretagsamhet"/></a>
         <p id="copyright">Copyright &copy; 2018</p>
+        <a class="clean" href="#"><p id="feedback">Ge feedback<i class="fa fa-commenting-o" aria-hidden="true"></i></p></a>
       </footer>
     </div>
 
+    <a class="anchorLink" href="#img-pen"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
+    <div class="feedback"><a class="clean" href="#">Ge feedback<i class="fa fa-commenting-o" aria-hidden="true"></i></a></div>
+
     <script src="https://code.jquery.com/color/jquery.color-2.1.2.min.js"></script>
+    <script src="anchor.js"></script>
     <script src='index_script.js'></script>
 
     <!--Fast, smart, simple. Så skulle man enkelt kunna beskriva-->
