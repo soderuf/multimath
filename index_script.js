@@ -27,6 +27,11 @@ $(document).ready(() => {
       $(window).scroll(function() {
         $('.fa-arrow-circle-up').toggleClass('fa-arrow-circle-up-scroll', $(this).scrollTop() > 150);
       });
+      $("#facebook").attr({
+        "src":"https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmultimathuf&tabs=timeline&width=250&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
+        "width":"250px",
+        "height":"400px"
+      });
     }
 
     $('.nav-links-1').mouseenter(function() {
@@ -175,9 +180,15 @@ $(document).ready(() => {
       }, 750);
     }, 10000);
 
-    $('.slider').bxSlider({
-      slideMargin: 200
+    $('.feedback').click(function() {
+      $(this).hide();
     });
+
+    if($(".slider").length > 0) {
+      $('.slider').bxSlider({
+        slideMargin: 200
+      });
+    }
 
     $('#social-links-1').mouseenter(function() {
       $("#img-social-1").animate({
