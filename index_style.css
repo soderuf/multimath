@@ -527,6 +527,13 @@ footer > a {
   margin-top:-45px;
 }
 
+.topimg, .topimg2 {
+  margin-left:10vw;
+  margin-top:10vw;
+  margin-bottom:10vw;
+  width:30vw;
+}
+
 @media only screen and (max-width:960px) {
   nav {
     height:21.67vw; /*16.67vw 60px*/
@@ -865,6 +872,11 @@ footer > a {
 
   .titletext-1 {
     margin-right:calc(3.89vw + 43.85px + 19px);
+  }
+
+  .topimg, .topimg2 {
+    position:absolute;
+    margin-bottom:-20vw;
   }
 }
 
